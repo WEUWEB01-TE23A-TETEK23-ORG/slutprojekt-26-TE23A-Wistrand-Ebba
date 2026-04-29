@@ -1,19 +1,35 @@
 
 body {
-
+background-color: #c2cdd9;
 }
 header {
+background-color: #fff;
+}
+
+header .front {
+text-decoration: none;
+font-size: 30px;
+letter-spacing: 1px;
+color: black;
+}
+header nav {
+        padding: 10px;
+        text-align: center;
 
 }
-header h1 {
-
+header nav a {
+        text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+padding: 5px;
+        background-color: #CAE0EB;
 }
 main {
-
+background-color: #fff;
 }
 aside {
-
+background-color: #fff;
 }
 footer {
-
+background-color: #CAE0EB;
 }
