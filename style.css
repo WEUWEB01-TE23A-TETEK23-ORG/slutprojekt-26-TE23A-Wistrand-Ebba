@@ -24,10 +24,9 @@ ul {
 body {
 background-color: #c2cdd9;
 }
-/* Sidan */
+
 .container {
-    grid-template-columns: 3fr 1fr;
-    gap: 5px;
+
     grid-template-areas:
     "header header"
     "main aside"
@@ -35,8 +34,8 @@ background-color: #c2cdd9;
 }
 /* Header & meny*/
 header {
-background-color: #fff;
-grid-area: header;
+background-color: #971a1a;
+grid-area: "header";
 }
 
 header .front {
@@ -44,6 +43,8 @@ text-decoration: none;
 font-size: 30px;
 letter-spacing: 1px;
 color: black;
+text-decoration: none;
+
 }
 header nav {
         padding: 10px;
@@ -57,18 +58,21 @@ header nav a {
 padding: 5px;
         background-color: #CAE0EB;
 }
-/* Main */
+
 main {
-background-color: #fff;
-grid-area: main;
+background-color: #1f7290;
+grid-area: "main";
 }
-/* Aside */
+
 aside {
-background-color: #fff;
-grid-area: aside;
+background-color: #693f3f;
+grid-area: "aside";
 }
-/* Footer */
+aside .aside {
+    
+}
+
 footer {
-background-color: #CAE0EB;
-grid-area: Footer;
+background-color: #4b4e50;
+grid-area: "footer";
 }
