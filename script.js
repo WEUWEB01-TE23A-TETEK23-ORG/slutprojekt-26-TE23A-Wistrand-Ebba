@@ -20,5 +20,8 @@ function dark() {
         document.querySelector("figure").style.backgroundColor = "#000000ff"
 }
 function sign() {
-    
-}
+svar = prompt("Do you wish to sign up for the newspaper")
+ if(svar == "yes") {alert ("Welcome to the dinasty")}
+    else {alert ("Please proceed:")}}
+
+alert ("We do not support cookies, this is what you need to know:  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi libero fugit quibusdam ipsam ducimus, labore, ea, iste quis sit recusandae fuga doloremque aperiam soluta velit dolor numquam quam ratione rem.")

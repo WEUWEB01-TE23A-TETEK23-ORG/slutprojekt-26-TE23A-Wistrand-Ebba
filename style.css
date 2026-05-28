@@ -23,15 +23,11 @@ ul {
 }
 
 body {
-    background-color: #c2cdd9
-;
-
-
+    background-color: #c2cdd9;
 }
 
 .container {
     width: 1080px;
-    margin: auto;
     margin-top: 15px;
     margin-bottom: 20px;
     display: grid;
@@ -40,6 +36,7 @@ body {
     grid-template-areas: "sidhuvud sidhuvud"
         "innerhall siddel"
         "sidfot sidfot";
+        
 }
 
 /* sidhuvud & meny*/
