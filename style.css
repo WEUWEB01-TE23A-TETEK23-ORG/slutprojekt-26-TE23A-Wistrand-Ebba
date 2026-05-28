@@ -35,22 +35,22 @@ body {
     margin-top: 15px;
     margin-bottom: 20px;
     display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas:
-        "header header"
-        "main aside"
-        "footer footer";
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    grid-template-areas: "sidhuvud sidhuvud"
+        "innerhall siddel"
+        "sidfot sidfot";
 
 }
 
-/* Header & meny*/
+/* sidhuvud & meny*/
 header {
     background-color: #fff;
-    grid-area: "header";
+    grid-area: sidhuvud;
     padding-top: 20px;
     display: flex;
     padding-bottom: 20px;
-    margin-bottom: 15px;
+
 }
 
 header .front {
@@ -72,7 +72,6 @@ letter-spacing: 2px;
 }
 
 header nav {
-    margin-top: 5px;
     padding: 10px;
     text-align: center;
 
@@ -91,8 +90,8 @@ header nav a {
 
 main {
     background-color: #fff;
-    grid-area: "main";
-    margin-bottom: 15px;
+    grid-area: innerhall;
+
 }
 
 main article h2 {
@@ -106,9 +105,13 @@ main article figure {
     padding: 20px;
     width: fit-content;
     margin: auto;
+    margin: 10px;
 }
 
-main article figure img {}
+main article figure img {
+    width: 600px;
+
+}
 
 main article figure figcaption {
     padding-top: 10px;
@@ -137,9 +140,8 @@ main article .text p {
 
 aside {
     background-color: #fff;
-    grid-area: "aside";
+    grid-area: siddel;
     letter-spacing: 1px;
-    margin-bottom: 15px;
     padding: 20px;
 }
 
@@ -153,7 +155,7 @@ padding: 5px 0px 5px;
 
 footer {
     background-color: #CAE0EB;
-    grid-area: "footer";
+    grid-area: sidfot;
     letter-spacing: 1px;
     color: #554b4b;
     padding: 5px;
