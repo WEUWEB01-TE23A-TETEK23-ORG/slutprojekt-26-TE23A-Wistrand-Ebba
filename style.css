@@ -40,7 +40,6 @@ body {
     grid-template-areas: "sidhuvud sidhuvud"
         "innerhall siddel"
         "sidfot sidfot";
-
 }
 
 /* sidhuvud & meny*/
@@ -73,19 +72,20 @@ letter-spacing: 2px;
 
 header nav {
     padding: 10px;
-    text-align: center;
-
 
 }
 
 header nav a {
     text-decoration: none;
     color: black;
-    letter-spacing: 1px;
     padding: 5px;
     background-color: #CAE0EB;
-    margin-left: 50px;
     letter-spacing: 2px;
+}
+header nav button {
+    background-color: #74a3ba;
+        letter-spacing: 2px;
+margin-left: 20px;
 }
 
 main {
